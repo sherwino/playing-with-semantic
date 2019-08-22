@@ -1,4 +1,16 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Playing With Semantic UI
+
+Just wanted to see how to work with Semantic UI with React and JSX.
+So for the sake of toying around with the lib, going to:
+
+- [] Create a branch using the standard import of the lib into HTML
+- [] Create a branch using NPM import using the whole lib
+- [] Create a branch using NPM import using only partial libs, and [other optimizations](https://github.com/Metnew/suicrux/blob/master/src/client/index.jsx)
+- [] Add Redux
+- [] Dispatch
+- [] Lazy Loading
+
+his project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
