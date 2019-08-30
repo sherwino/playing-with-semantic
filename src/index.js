@@ -7,12 +7,23 @@ import ApproveCard from './ApproveCard';
 const App = () => {
     return (
     <div>
-        <div className="ui pointing below label">
-            "Sup Bruh"
+        <div className="ui container comments">
+
+            <ApproveCard>
+                <CommentDetail
+                isApproved={false}
+                avatar={faker.image.avatar()}
+                name={faker.name.firstName()} 
+                timeStamp="Today at 4:09PM" 
+                content="Sup Bruh!" />
+                <CommentDetail
+                isApproved={false}
+                avatar={faker.image.avatar()}
+                name={faker.name.firstName()} 
+                timeStamp="Today at 5:09PM" 
+                content="Yo, what are those?" />
+            </ApproveCard>
         </div>
-        <CommentDetail name={faker.name.firstName()} />
-        <ApproveCard>
-        </ApproveCard>
     </div>
     );
 }
